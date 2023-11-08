@@ -1,0 +1,31 @@
+.progress{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 40%;
+  min-width: 20rem;
+}
+
+.slider{
+  width: 100%;
+  margin-top: 2rem;
+  height: 1rem;
+  background-color: var(--acc2);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.percentage{
+  width: 50%;
+  height: 100%;
+  background-color: var(--acc1);
+}
+
+.numbers{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}

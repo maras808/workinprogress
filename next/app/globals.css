@@ -1,0 +1,30 @@
+:root{
+  --main: #1F232C;
+  --acc1: #bde0fe;
+  --acc2: #ffffff50;
+  --text-c-main: #e4e6eb;
+
+  --text-s-s: clamp(1rem, 1.2vw, 1.4rem);
+  --text-s-x: clamp(4rem, 6vw, 7rem);
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: var(--text-c-main);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
