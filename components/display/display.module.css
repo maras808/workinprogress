@@ -1,0 +1,19 @@
+.display{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  text-align: center;
+  text-wrap: balance;
+}
+
+.big{
+  font-size: var(--text-s-x);
+}
+
+.small{
+  margin-top: 2rem;
+  font-size: var(--text-s-s);
+  letter-spacing: .6rem;
+}
